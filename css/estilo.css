@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/fundoDayz2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo {
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+.topo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.topo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topo li {
+    display: 
+    inline-block;
+}
+.topo p {
+    padding: 0;
+
+}
+footer {
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.textoLogo {
+    
+}
