@@ -1,48 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@900&display=swap');
 body {
     padding: 0;
     margin: 0;
-    background-image: url('../img/fundoDayz2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)),
+    url("../img/fundoDayz2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 0;
+    margin: 0;
+}
+.meio {
+    color: white;
+    padding-top: 1px;
+    text-align: center;
+}
+.meio h1 {
+    font-family: 'Oxygen', sans-serif;
 }
 .logo {
-    width: 70px;
-    margin: 0;
+    width: 20%;
+    margin: 0 auto;
     padding: 0;
 }
 .topo {
     text-align: center;
-    background-color: black;
-    color: white;
-    font-size: 30px;
     margin: 0;
     padding: 0;
 }
 .topo ul {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 .topo li {
-    display: 
-    inline-block;
+    display: inline-block;
+    margin: 0;
 }
 .topo p {
-    padding: 0;
-
+    margin: 0;
 }
 footer {
+    background-color: black;
+    float: left;
     color: white;
-    position: fixed;
     width: 100%;
-    bottom: 0;
     font-size: 20px;
     text-align: center;
+    margin-top: 20px;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
+.estiloH1 {
+text-align: center;
+padding-top: 10px;
+}
+.estiloH1 h1 {
+    margin: 0 auto;
+    border-radius: 15px;
+    border-left: 2px solid #5897d7 ;
+    border-right: 2px solid #fdc30c ;
+    width: 35%;
+}
+.coluna {
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    margin: 0 auto;
+    padding: 0;
+}
+.btn {
+    border-radius: 10px;
+    border: 2px solid #3e5eb4;
+    padding: 10px;
+    color: #e55e24 ;
+    font-family: 'Gabarito', cursive;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn:hover {
+    border: 2px solid #e55e24;
+    color: #3e5eb4;
+}
+nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
-.textoLogo {
-    
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.itenMenu {
+    color: #3e5eb4;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+}
+.itenMenu:hover {
+    color: #e55e24;
+}
+.tituloCategoria {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.box {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.coluna2 {
+    width: 99.5%;
+    margin: 0 auto;
+    float: left;
+}
+.discord {
+    width: 70px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #3e5eb4;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #e55e24;
+    border-radius: 15px;
 }
